@@ -27,14 +27,24 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   border-style: solid;
-  border-radius: 50px;
   color: goldenrod
 }
 
 img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 550px;
   border-style: solid;
   border-radius: 25px;
-  opacity: 0.80 
+  opacity: 0.80;
+  padding-top: 60px;
+}
+
+output {
+  font-size: xx-large;
+  padding-left: 100px;
+  padding-bottom: 5px;
+}
+
+h3 {
+  text-decoration-line: underline;
 }

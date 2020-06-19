@@ -10,11 +10,11 @@ function Pizza(size, sauce, toppings){
 Pizza.prototype.getSize = function() {
   this.size = $("input[type='radio'][name='size']:checked").attr("id")
     if (this.size === "small"){
-      this.price += 10
+      this.price += 10.00
     } else if (this.size === "medium") {
-      this.price += 12
+      this.price += 12.00
     } else {
-      this.price += 15
+      this.price += 15.00
     }
 
 }
@@ -22,9 +22,9 @@ Pizza.prototype.getSize = function() {
 Pizza.prototype.getSauce =function() {
   this.sauce = $("input[type='radio'][name='sauce']:checked").attr("id")
     if (this.sauce === "pesto"){
-      this.price += 3
+      this.price += 3.00
     } else if (this.sauce === "alfredo") {
-      this.price += 2
+      this.price += 2.00
     } else {
       this.price += .50
     }
