@@ -26,7 +26,9 @@ __
 | Pizza size | 'click' box | 'large', 'Med', Or 'small' |
 | Toppings | 'click' box | adds topping & price  |
 | Base sauce | 'click' sauce | adds sauce & price |
+| Order button | 'click' Order | final price |
 | Start over | 'click' restart | restarts |
+
 
 
 ## Known Bugs
