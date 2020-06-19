@@ -15,15 +15,15 @@
     </div>
     <div class="row">
       <div class="column">
-        <form action="orderPizza">
+        <form>
           <div>
             <h3>Choose Your Size</h3>
             <input type="radio" id="small" name="size">
-            <label for="male">Small - $10.00</label><br>
+            <label for="small">Small - $10.00</label><br>
             <input type="radio" id="medium" name="size">
-            <label for="female">Medium - $12.00</label><br>
+            <label for="medium">Medium - $12.00</label><br>
             <input type="radio" id="large" name="size">
-            <label for="other">Large - $15.00</label>  
+            <label for="large">Large - $15.00</label>  
           </div>
           <div>
             <h3>Choose Your Sauce</h3>
@@ -39,30 +39,32 @@
             <br>
             <br>
             <h3>Choose all your Toppings</h3>
-            <input type="checkbox" id="topping1">
-            <label for="topping1"> Olives - $1.00</label><br>
-            <input type="checkbox" id="topping2">
-            <label for="topping2"> Pepperoni - $1.00</label><br>
-            <input type="checkbox" id="topping3">
-            <label for="topping3"> Onions - $1.00</label><br>
-            <input type="checkbox" id="topping4">
-            <label for="topping4"> Garlic Cloves - $1.00</label><br>
-            <input type="checkbox" id="topping5">
-            <label for="topping5"> Bannanna Peppers - $1.00<label><br>
-            <input type="checkbox" id="topping6">
-            <label for="topping6"> Sausage - $1.00</label><br>
-            <input type="checkbox" id="topping7">
-            <label for="topping7"> Green Peppers - $1.00</label><br>
-            <input type="checkbox" id="topping8">
-            <label for="topping8"> Canadian Bacon - $1.00</label><br>
-            <input type="checkbox" id="topping9">
-            <label for="topping9"> Just Cheese - $1.00</label><br>
+            <input class="toppings" type="checkbox" id="Olives">
+            <label for="Olives"> Olives - $1.00</label><br>
+            <input class="toppings" type="checkbox" id="Pepperoni">
+            <label for="Pepperoni"> Pepperoni - $1.00</label><br>
+            <input class="toppings" type="checkbox" id="Onions">
+            <label for="Onions"> Onions - $1.00</label><br>
+            <input class="toppings" type="checkbox" id="Garlic Cloves">
+            <label for="Garlic Cloves"> Garlic Cloves - $1.00</label><br>
+            <input class="toppings" type="checkbox" id="BannannaPeppers">
+            <label for="BannannaPeppers"> Banana Peppers - $1.00<label><br>
+            <input class="toppings" type="checkbox" id="Sausage">
+            <label for="Sausage"> Sausage - $1.00</label><br>
+            <input class="toppings" type="checkbox" id="GreenPeppers">
+            <label for="GreenPeppers"> Green Peppers - $1.00</label><br>
+            <input class="toppings" type="checkbox" id="CanadianBacon">
+            <label for="CanadianBacon"> Canadian Bacon - $1.00</label><br>
+            <input class="toppings" type="checkbox" id="JustCheese">
+            <label for="JustCheese"> Just Cheese - $1.00</label><br>
           </div>
           <button type = "submit" class = "btn btn-success">Submit</button>
         </form>
       </div>
       <div class="column">
-        <h3>Price of the Pizza: <output id= "price of pizza"></output></h3>
+        <h3>Price of the Pizza: </h3>
+        <br>
+        <output id= "priceOfPizza"></output>
       </div>
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRltC9gVH28ba_cuUYJhKOedrIO_rq4JlKvn-oa8m_kyzdCz-Gw&usqp=CAU" alt="a pizza slice">
     </div>

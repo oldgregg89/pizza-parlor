@@ -1,31 +1,51 @@
 //Business Logic
-function finalPrice (){
-  let totalprice = 0
 
-}
-
-function pizza(size, sauce, toppings){
+function Pizza(size, sauce, toppings){
   this.size = size
   this.sauce = sauce
   this.toppings = toppings
+  this.price = 0
 }
 
-pizza.prototype.checkSize() {
-  size =
+Pizza.prototype.getSize = function() {
+  this.size = $("input[type='radio'][name='size']:checked").attr("id")
+    if (this.size === "small"){
+      this.price += 10
+    } else if (this.size === "medium") {
+      this.price += 12
+    } else {
+      this.price += 15
+    }
+
 }
 
-pizza.prototype.checkSauce() {
-  suace = 
+Pizza.prototype.getSauce =function() {
+  this.sauce = $("input[type='radio'][name='sauce']:checked").attr("id")
+    if (this.sauce === "pesto"){
+      this.price += 3
+    } else if (this.sauce === "alfredo") {
+      this.price += 2
+    } else {
+      this.price += .50
+    }
 }
 
-pizza.prototype.checkToppings(){
+Pizza.prototype.checkToppings = function() {
+  this.toppings = $(".toppings:checked").length
+  this.price += this.toppings
 
 }
 
 //User interface logic
 $(document).ready(function(){
-  $("form#orderPizza").submit(function(event) {
-    event.preventDefault (); 
-    let userFinalPrice = 
-    $("").text()
+  $("form").submit(function(event){
+    event.preventDefault(); 
+    let pizza = new Pizza('','','')
+    pizza.getSize()
+    pizza.getSauce()
+    pizza.checkToppings()
+    let total = pizza.price
+    debugger
+    $("#priceOfPizza").text('$'+total)
+  });
 });
