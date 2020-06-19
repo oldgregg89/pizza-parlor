@@ -1,0 +1,19 @@
+body {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5832763debbd1a8a51f02ef6/1524792940184-1KZ4LZF46P1EW3DW4RS6/ke17ZwdGBToddI8pDm48kKAwwdAfKsTlKsCcElEApLR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ucl0sOq0zEl3NNPJARhrW8boY_OjzErlNQSk3JJZ2GWnP7cJNZlDXbgJNE9ef52e8w/Standard-Dave-GIF-Cream-Overlay-1.15.gif?format=1500w);
+}
+
+.column {
+  background-color: antiquewhite;
+  border-style: solid;
+  padding-left: 10px;
+  margin: 30px;
+}
+
+.jumbotron {
+  background-image: url(https://previews.123rf.com/images/julkapulka/julkapulka1606/julkapulka160600042/57599551-basil-fresh-herb-leaves-plant-vector-hand-drawn-illustration-on-white-background-herbal-ingredient-f.jpg);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-style: solid;
+  color: goldenrod
+}
