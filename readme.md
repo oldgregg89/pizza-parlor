@@ -8,7 +8,7 @@
 
 ## Description
 
-__
+_A pizza parlor web page that allows the user to customize their pizza before submiting their order. It will return a price of the pizza after the user imputs all their order and hits submit._
 
 ## Setup/Installation Requirements
 
