@@ -24,11 +24,9 @@ __
 | Behavior    | Input | Output |
 | :---------- | ----- | -----: |
 | Pizza size | 'click' box | 'large', 'Med', Or 'small' |
-| Toppings | 'click' box | adds topping & price  |
+| Toppings | 'click'check boxs  | 'pesto', 'Alfredo', Or '  |
 | Base sauce | 'click' sauce | adds sauce & price |
-| Order button | 'click' Order | final price |
-| Start over | 'click' restart | restarts |
-
+| Order button | 'click' Submit | final price |
 
 
 ## Known Bugs
