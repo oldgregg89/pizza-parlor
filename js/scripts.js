@@ -39,7 +39,6 @@ $(document).ready(function(){
     pizza.getSize(size);
     pizza.getSauce(sauce);
     pizza.checkToppings(toppings);
-    let total = pizza.price;
-    $("#priceOfPizza").text('$'+total);
+    $("#priceOfPizza").text('$'+pizza.price);
   });
 });
